@@ -1,0 +1,61 @@
+body{
+    text-align: center;
+    background-image: url(space-game-background-with-landscape-planet_107791-1700.avif);
+    background-size: cover;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.btn{
+    height: 200px;
+    width: 200px;
+    border: 10px solid rgb(45, 40, 40);
+    border-radius: 20%;
+    margin: 40px;
+
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+.red{
+    background-color: rgb(228, 22, 22);
+}
+.yellow{
+    background-color: rgb(161, 239, 82);
+}
+.blue{
+    background-color: rgb(107, 107, 200);
+}
+.green{
+    background-color: rgb(70, 221, 70);
+}
+.white{
+    background-color: aqua;
+}
+.ex{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: black;
+    /* background-image: url(./space-game-background-with-landscape-planet_107791-1700.avif);
+    background-size: cover;
+    border: 10px solid black; */
+    background: linear-gradient(yellow,red,blue,rgb(93, 93, 9));
+    padding: 10px;
+    
+    
+}
+.ex img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+body::-webkit-scrollbar{
+    background-color: transparent;
+}
+body::-webkit-scrollbar-thumb{
+    background: linear-gradient(blue,green,red,yellow);
+    border-radius: 20px;
+}
